@@ -1,0 +1,19 @@
+Trivia: 
+
+Jobs: are something which are nothing but each stage, build, deploy,test etc
+these jobs run through gitlab runner configured on linux/windows
+tgese runners can directly execeute on linux/ on docker machines installed on linux also
+ .gilab-ci.yml
+defines scripts that should be run during the CI/CD pipeline and their scheduling, additional configuration files and templates, dependencies, caches, commands GitLab should run sequentially or in parallel, and instructions on where the application should be deployed to.
+
+Fork/clone/push the repo with the source code
+write the.gitlab-ci.yml file and commit it
+once done the pipeline gets triggered on its own, if a dockerenv is set for it to run, it runs on docker conatiner
+Now store any secrets ti push/pull from gitlab repo to dockerhub in variables section
+complete the .yml file using different stages
+
+
+
+
+
+
