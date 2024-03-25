@@ -15,6 +15,12 @@ complete the .yml file using different stages
 gitlab uses ruby image to create a build
 
 
+Different types of GitLab executors
+shell- simplest - we run commands directly on the OS where runners are installed
+docker containers: managed runners are always executed in this
+
+
+
 
 
 
