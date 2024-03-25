@@ -12,6 +12,8 @@ once done the pipeline gets triggered on its own, if a dockerenv is set for it t
 Now store any secrets ti push/pull from gitlab repo to dockerhub in variables section
 complete the .yml file using different stages
 
+gitlab uses ruby image to create a build
+
 
 
 
