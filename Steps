@@ -21,6 +21,15 @@ docker containers: managed runners are always executed in this
 
 
 
+When a pipeline is triggered, the Runner picks up the job, runs the script defined in the .gitlab-ci.yml file and sends the results back to GitLab. The runner can run the job on the same machine where GitLab is installed, or it can run the job on a different machine. This allows the pipeline to be run on a variety of environments, such as different operating systems or different cloud providers.
+
+Once the pipeline is completed, the runner sends the results back to GitLab, which then updates the pipeline status and provides detailed logs of the pipeline execution
+
+GitLab Runner supports multiple types of executors such as shell, Docker, SSH, Kubernetes and more. 
+
+
+
+https://www.testpreptraining.com/tutorial/gitlab-ci-cd-specialist-interview-questions/
 
 
 
