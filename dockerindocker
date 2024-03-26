@@ -1,0 +1,11 @@
+When we run a pipeline using a docker agent, we are using ruby image by default, but we need a docker image available to run docker build commands. This is where DID comes in.
+So we install a docker container for docker daemon, ine for client and a certificate so that they can communicate with each other
+
+docker_build:
+  image: docker:20.10.16
+  service:
+    - docker:20.10.16-dnd
+  variables:
+      DOCKER_TLS_CERTDIR: "/certs"
+    
+    
